@@ -5,52 +5,52 @@ class Feed extends React.Component {
   render() {
     return (
       <div>
-        <div class="fb-status-update-entry panel panel-default">
-            <div class="panel-body">
-              <ul class="nav nav-pills">
-                <li role="presentation" class="active">
-                  <a href="#"><span class="glyphicon glyphicon-pencil"></span> <strong>Update Status</strong></a>
+        <div className="fb-status-update-entry panel panel-default">
+            <div className="panel-body">
+              <ul className="nav nav-pills">
+                <li role="presentation" className="active">
+                  <a href="#"><span className="glyphicon glyphicon-pencil"></span> <strong>Update Status</strong></a>
                 </li>
                 <li role="presentation">
-                  <a href="#"><span class="glyphicon glyphicon-picture"></span> <strong>Add Photos/Video</strong></a>
+                  <a href="#"><span className="glyphicon glyphicon-picture"></span> <strong>Add Photos/Video</strong></a>
                 </li>
                 <li role="presentation">
-                  <a href="#"><span class="glyphicon glyphicon-th"></span> <strong>Create Photo Album</strong></a>
+                  <a href="#"><span className="glyphicon glyphicon-th"></span> <strong>Create Photo Album</strong></a>
                 </li>
               </ul>
-              <div class="media">
-                <div class="media-left media-top">
+              <div className="media">
+                <div className="media-left media-top">
                   PIC
                 </div>
-                <div class="media-body">
-                  <div class="form-group">
-                    <textarea class="form-control" rows="2" placeholder="What's on your mind?"></textarea>
+                <div className="media-body">
+                  <div className="form-group">
+                    <textarea className="form-control" rows="2" placeholder="What's on your mind?"></textarea>
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default">
-                      <span class="glyphicon glyphicon-camera"></span>
+              <div className="row">
+                <div className="col-md-6">
+                  <div className="btn-group" role="group">
+                    <button type="button" className="btn btn-default">
+                      <span className="glyphicon glyphicon-camera"></span>
                     </button>
-                    <button type="button" class="btn btn-default">
-                      <span class="glyphicon glyphicon-user"></span>
+                    <button type="button" className="btn btn-default">
+                      <span className="glyphicon glyphicon-user"></span>
                     </button>
-                    <button type="button" class="btn btn-default">
+                    <button type="button" className="btn btn-default">
                       ☺
                     </button>
-                    <button type="button" class="btn btn-default">
-                      <span class="glyphicon glyphicon-pushpin"></span>
+                    <button type="button" className="btn btn-default">
+                      <span className="glyphicon glyphicon-pushpin"></span>
                     </button>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="pull-right">
-                    <button type="button" class="btn btn-default">
-                      <span class="glyphicon glyphicon-user"></span> Friends <span class="caret"></span>
+                <div className="col-md-6">
+                  <div className="pull-right">
+                    <button type="button" className="btn btn-default">
+                      <span className="glyphicon glyphicon-user"></span> Friends <span className="caret"></span>
                     </button>
-                    <button type="button" class="btn btn-default">
+                    <button type="button" className="btn btn-default">
                       Post
                     </button>
                   </div>
@@ -61,84 +61,84 @@ class Feed extends React.Component {
 
   
 
-          <div class="fb-status-update panel panel-default">
-            <div class="panel-body">
-              <div class="row">
-                <div class="col-md-10">
-                  <div class="media">
-                    <div class="media-left media-top">
+          <div className="fb-status-update panel panel-default">
+            <div className="panel-body">
+              <div className="row">
+                <div className="col-md-10">
+                  <div className="media">
+                    <div className="media-left media-top">
                       PIC
                     </div>
-                    <div class="media-body">
+                    <div className="media-body">
                       <a href="#">Someone</a>
-                      <br /> Yesterday at 3:48pm · Austin, TX · <span class="glyphicon glyphicon-user"></span>
+                      <br /> Yesterday at 3:48pm · Austin, TX · <span className="glyphicon glyphicon-user"></span>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-2">
-                  <span class="caret pull-right"></span>
+                <div className="col-md-2">
+                  <span className="caret pull-right"></span>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-12">
+              <div className="row">
+                <div className="col-md-12">
                   ugh.
                 </div>
               </div>
               <hr />
-              <div class="row">
-                <div class="col-md-12">
-                  <ul class="list-inline">
+              <div className="row">
+                <div className="col-md-12">
+                  <ul className="list-inline">
                     <li>
-                    <a href="#"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a>
+                    <a href="#"><span className="glyphicon glyphicon-thumbs-up"></span> Like</a>
                     </li>
                     <li>
-                    <a href="#"><span class="glyphicon glyphicon-comment"></span> Comment</a>
+                    <a href="#"><span className="glyphicon glyphicon-comment"></span> Comment</a>
                     </li>
                     <li>
-                    <a href="#"><span class="glyphicon glyphicon-share-alt"></span> Share</a>
+                    <a href="#"><span className="glyphicon glyphicon-share-alt"></span> Share</a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="panel-footer">
-              <div class="row">
-                <div class="col-md-12">
+            <div className="panel-footer">
+              <div className="row">
+                <div className="col-md-12">
                   <a href="#">13 people</a> like this
                 </div>
               </div>
               <hr />
-              <ul class="media-list">
-                <li class="media">
-                  <div class="media-left media-top">
+              <ul className="media-list">
+                <li className="media">
+                  <div className="media-left media-top">
                     PIC
                   </div>
-                  <div class="media-body">
+                  <div className="media-body">
                     <a href="#">Someone Else</a> hope everything is ok!
                     <br /><a href="#">Like</a> · <a href="#">Reply</a> · 20 hrs
                   </div>
                 </li>
-                <li class="media">
-                  <div class="media-left media-top">
+                <li className="media">
+                  <div className="media-left media-top">
                     PIC
                   </div>
-                  <div class="media-body">
+                  <div className="media-body">
                     <a href="#">Another Person</a> sending hugs your way
                     <br /><a href="#">Like</a> · <a href="#">Reply</a> · 20 hrs
                   </div>
                 </li>
-                <li class="media">
-                  <div class="media-left media-top">
+                <li className="media">
+                  <div className="media-left media-top">
                     PIC
                   </div>
-                  <div class="media-body">
-                    <div class="input-group">
-                      <input type="text" class="form-control" placeholder="Write a comment..." />
-                      <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">
-                          <span class="glyphicon glyphicon-camera"></span>
+                  <div className="media-body">
+                    <div className="input-group">
+                      <input type="text" className="form-control" placeholder="Write a comment..." />
+                      <span className="input-group-btn">
+                        <button className="btn btn-default" type="button">
+                          <span className="glyphicon glyphicon-camera"></span>
                         </button>
-                        <button class="btn btn-default" type="button">
+                        <button className="btn btn-default" type="button">
                           ☺
                         </button>
                       </span>
