@@ -1,9 +1,6 @@
 {
-  "name": "workshop-4-5",
+  "name": "fbstaticreactcomponents",
   "version": "0.0.1",
-  "description": "Repository for CS326 Workshop 4 and 5",
-  "author": "John Vilk <jvilk@cs.umass.edu>",
-  "license": "MIT",
   "scripts": {
     "build": "webpack",
     "serve": "webpack-dev-server --content-base build"

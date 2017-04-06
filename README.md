@@ -1,3 +1,3 @@
 
 
-fb from static to dynamic
+fb clone using static react
